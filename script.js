@@ -30,7 +30,7 @@ function colorGenerate() {
     var green = (Math.round(Math.random()* 127) + 127).toString(16);
     var blue = (Math.round(Math.random()* 127) + 127).toString(16);
   
-    var HEXCODE_ = "#" + red.toString(16) + green.toString(16) + blue.toString(16);
+    var HEXCODE_ = "#" + red.toString(16).toUpperCase() + green.toString(16).toUpperCase() + blue.toString(16).toUpperCase();
     
     return HEXCODE_;
 }
