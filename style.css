@@ -1,0 +1,64 @@
+p{
+    font-family: 'Nunito Sans';
+    font-size: 2.3vw;
+}
+h3{
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 30%;
+    z-index: 100;
+    font-family: "Shadows Into Light";
+    font-size: 2.67em;
+    font-weight: 100;
+
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 60%;
+    z-index: 10;
+}
+
+
+.wrapper h1 {
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 6.9vw;
+    margin-bottom: 0;
+    background: linear-gradient(330deg, #EDAFB8 0%, #d7bac2 25%, #CCFBFE 50%, #daaef9 75%, #EDAFB8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#caption{
+    text-align: center;
+    font-size: 2.1vw;
+    font-family: "Shadows Into Light";
+}
+
+.content {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.square {
+    border-radius: 15%;
+    width: 160px;
+    height: 280px;
+    /* border: 1px solid black; */
+}
+
+.square p {
+ position: relative;
+float: left;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+    color: white;
+}
+.section_1 {
+    margin-top: 10%;
+}
+.section_1 h2{
+    text-align: center;
+}
