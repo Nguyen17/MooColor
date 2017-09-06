@@ -62,3 +62,34 @@ transform: translate(-50%, -50%);
 .section_1 h2{
     text-align: center;
 }
+
+/* MOBILE  */
+@media (max-width: 576px){
+    
+
+.wrapper h1 {
+    font-size: 3.25rem;
+}
+
+#caption {
+    font-size: 1.5rem;
+
+}
+.square{
+    width: 7rem;
+    height: 8.25rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+}
+
+
+
